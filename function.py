@@ -1,5 +1,5 @@
-def faraz ():
-    print("hello")
-    print("good morning")
-faraz()
-faraz()
+def add (x,y):
+    c=x+y
+    return c
+result=add(5,4)
+print(result)
