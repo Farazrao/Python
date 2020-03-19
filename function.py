@@ -1,5 +1,6 @@
-def add (x,y):
+def add_mul(x,y):
     c=x+y
-    return c
-result=add(5,4)
-print(result)
+    d=x*y
+    return c,d
+result1,result2=add_mul(5,4)
+print(result1,result2)
