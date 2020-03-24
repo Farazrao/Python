@@ -1,5 +1,5 @@
 from array import*
-faraz=array('i',[10,20,30,40,50])
+faraz=array('i',[1,2,3,4,5])
 rao=array(faraz.typecode,(a*a for a in faraz))
-for e in rao:
-    print(e)
+for i in rao:
+    print(i)

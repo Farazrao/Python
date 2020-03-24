@@ -1,9 +1,6 @@
-def update (lst):
-    print(id(lst))
+def faraz(lst):
     lst[1]=25
-    print(id(lst))
-    print("x",lst)
-lst=[10,20,30]
-print(id(lst))
-update(lst)
-print("lst",lst)
+    lst[2]=30
+lst=[10,20,37,40]
+faraz(lst)
+print(lst)
