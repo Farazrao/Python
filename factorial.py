@@ -4,7 +4,7 @@ def update(n):
         r=r*i
 
     return r
-y=4
-result = update(y)
+
+result= update(4)
 
 print(result)

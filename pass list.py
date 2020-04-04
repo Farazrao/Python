@@ -1,12 +1,12 @@
 def count(lst):
-    even=0
-    odd=0
-    for i in lst:
-        if i%2==0:
-            even+=1
-        else:
-            odd+=1
-            return even,odd
-lst=[25,14,15,16,18,12,19]
-even,odd= count(lst)
-print("even:{} and odd:{}".format(even,odd))
+    for i in range(len(lst)):
+        if len(lst[i])>5:
+            print(lst[i])
+
+
+
+namelst=[]
+for i in range(4):
+    name=str(input("enter the names"))
+    namelst.append(name)
+count(namelst)
